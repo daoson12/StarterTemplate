@@ -1,0 +1,10 @@
+
+  .footer-link {
+    color: #777;
+    transition: all 0.3s;
+  }
+  
+  .footer-link:hover, .footer-link:focus {
+    color: #5954cb;
+    text-decoration: none;
+  }
