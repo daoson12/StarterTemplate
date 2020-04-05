@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <!-- <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button> -->
+  <!-- <i class="fas fa-bars" id="menu-toggle" style="font-size: 20px;"></i> -->
+
+  <div class="logo" style="margin-left: 10%; font-size: 20px; font-weight: bolder;">
+       GoGetters
+  </div>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+      <li class="nav-item active">
+        <a class="nav-link"> <i class="fas fa-flag"></i> Start</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link"><i class="fa fa-user"></i>Members</a>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link"><i class="fas fa-comments"></i>Forum</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link"><i class="fa fa-book"></i>Guide</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link"><i class="fa fa-calendar"></i>Events</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link"><i class="fas fa-users"></i>Groups</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link"><i class="fas fa-envelope"></i> <span style="font-size: 10px;">Msg</span></a>
+
+      </li>
+
+      <li class="nav-item dropdown ml-1">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          <i class="fas fa-user"></i>
+          <span style="font-size: 10px;">Acct</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item">UserName</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item">Contacts</a>
+          <a class="dropdown-item">Invite Friends</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item">Settings</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item">Account Settings</a>
+           <a class="dropdown-item">Interest</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item"(click)="logout()">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
